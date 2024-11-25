@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Dynamic Website!</h1>
+    </header>
+
+    <section id="form-section">
+        <h2>Submit Your Details</h2>
+        <form id="user-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="result-section" style="display: none;">
+        <h2>Thank You for Your Submission!</h2>
+        <p><strong>Name:</strong> <span id="result-name"></span></p>
+        <p><strong>Message:</strong> <span id="result-message"></span></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dynamic Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
