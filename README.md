@@ -1,2 +1,2 @@
 # DevOpsAssignment
-repo for assignment to host a dynamic website
+Hosting a Dynamic Website onto AWS for an Assignment for DevOps Course
